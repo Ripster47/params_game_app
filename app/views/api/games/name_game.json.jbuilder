@@ -1,1 +1,5 @@
-json.name_game @message
+json.name @entry
+
+if @message
+  json.message @message
+end

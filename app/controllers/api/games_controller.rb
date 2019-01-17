@@ -3,9 +3,7 @@ class Api::GamesController < ApplicationController
   def name_game
     @entry = params[:name]
     if @entry.upcase[0] == "A"
-      @message = "Your name starts with the first letter of the alphabet!"
-    else 
-      @message = "Your name is #{@entry.upcase}"
+      @message = "Hey, your name starts with the first letter of the alphabet!"
     end
     render 'name_game.json.jbuilder'
   end

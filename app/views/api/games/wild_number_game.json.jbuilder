@@ -1,1 +1,1 @@
-json.wild_number @message_2
+json.did_you_guess_it? @message_2

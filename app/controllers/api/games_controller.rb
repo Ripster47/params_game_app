@@ -27,14 +27,14 @@ class Api::GamesController < ApplicationController
 
   def wild_number_game
     @guess = params[:wild_number].to_i
-    answer = 12
+    answer = 56
 
     if @guess == answer
       @message_2 = "You got it buddy!"
     elsif @guess < answer
       @message_2 = "Too low!"
     elsif @guess > 100
-        @message_2 = "Hold on there Jethro! Keep it between 1 and 100!"
+      @message_2 = "Hold on there Jethro! Keep it between 1 and 100!"
     else
       @message_2 = "Too high!"
     end

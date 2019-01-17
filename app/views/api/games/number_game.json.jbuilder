@@ -1,1 +1,1 @@
-json.number_game @message_2
+json.did_you_guess_it? @message_2

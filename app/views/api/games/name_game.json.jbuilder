@@ -1,0 +1,1 @@
+json.name_game @message
